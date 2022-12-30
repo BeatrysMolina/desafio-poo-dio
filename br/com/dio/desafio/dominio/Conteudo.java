@@ -13,7 +13,7 @@ public abstract class Conteudo {
         return titulo;
     }
 
-    public void String setTitulo() {
+    public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
 
@@ -21,7 +21,7 @@ public abstract class Conteudo {
         return descricao;
     }
 
-    public void String setDescricao() {
+    public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
 }
